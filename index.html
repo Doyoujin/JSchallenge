@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charest="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width", inital-scale=1.0>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Momentum</title>
+
+    </head>
+    <body>
+        <form  class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is you name?" /> 
+        <input type="submit" vlaue="Log In"> <!--type이 submit인 input을 클릭하면 작성한 폼이 enter나 제출 버튼을 누르면 자동으로 제출이 됨. 니꼬쌤이 한 방법.-->
+        <!--<button="submit">Log In</button>위의 코드와 같은 의미임. button 타입을 submit로 하면 button태그도 가능!-->
+        </form>
+        <h1 id="greeting"class="hidden"></h1>
+        <h2 id="clock">00:00:00</h2>
+        <form id="todo-form">
+            <input type="text" placeholder="Write your to do list" required/>
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="quote">
+            <span></span>
+            <span></span>   
+        </div>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <script src="js/greeting.js"></script>  
+        <script src="js/clock.js"></script>
+        <script src="js/quote.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,48 @@
+.hidden{
+    display:none;
+}
+
+
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+li{
+    list-style: none;
+
+}
+
+#quote span:first-child{
+    color:rgb(66, 17, 66);
+    font-weight: bold;
+
+}
+
+#quote span:last-child{
+    font-style: italic;
+
+}
+
+#clock,
+form,
+#greeting,
+#todo-list,
+#todo-form,
+#quote{
+    text-align: center;
+}
+
+#weather{
+    position: fixed;
+    top: 20px;
+    left:90%;
+}
+button{
+    width:40px;
+    height:25px;
+    background-color:rgb(218, 187, 247); 
+    border-radius: 10px;
+    box-shadow: blueviolet;
+}
